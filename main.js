@@ -5,7 +5,7 @@
 // //    | | ((___( ( / / ((___/ /  
 // Code by: EliDaCoder and LXmaster
 var canvas = document.getElementById("canvas");
-var ctx = canvas.getContent("2d");
+var ctx = canvas.getContext("2d");
 // v is an object in which we will store our image variables
 var v = {};
 v.ground = new Image();
