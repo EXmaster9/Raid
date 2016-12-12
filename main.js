@@ -8,7 +8,9 @@ var canvas = document.getElementById("canvas");
 var ctx = canvas.getContext("2d");
 // v is an object in which we will store our image variables
 var v = {};
-v.ground = new Image();
-v.ground.src = "ground.png"
-// drawing the ground image on the canvas; just for testing
-ctx.drawImage(v.ground,5,5);
+window.onload = function() {
+  v.ground = new Image();
+  v.ground.src = "ground.png"
+  // drawing the ground image on the canvas; just for testing
+  ctx.drawImage(v.ground,5,5);
+}
